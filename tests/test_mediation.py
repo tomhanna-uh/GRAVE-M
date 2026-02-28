@@ -9,7 +9,7 @@ from sklearn.utils import resample
 
 # Extract the run_mediation_analysis function from the notebook
 def get_mediation_function():
-    with open('tft_alba_02272026.ipynb', 'r', encoding='utf-8') as f:
+    with open('tft_alba_02272026_2.ipynb', 'r', encoding='utf-8') as f:
         nb = json.load(f)
 
     code_lines = []

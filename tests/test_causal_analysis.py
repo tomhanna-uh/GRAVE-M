@@ -33,7 +33,7 @@ def extract_function_from_notebook(notebook_path, function_name):
                     continue
     return None
 
-source_code = extract_function_from_notebook('tft_alba_02272026.ipynb', 'run_causal_analysis')
+source_code = extract_function_from_notebook('tft_alba_02272026_2.ipynb', 'run_causal_analysis')
 if source_code:
     exec(source_code, globals())
 else:
